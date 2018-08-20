@@ -10,13 +10,26 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Simple Ledger Protocol (SLP) | A simple token system for Bitcoin Cash</title>
+    <title>Simple Ledger Protocol (SLP)</title>
     <meta name="description" content="A simple token system for Bitcoin Cash">
 
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- opengraph and twitter cards
+    ================================================== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@SimpleLedger" />
+    <meta name="twitter:title" content="Simple Ledger Protocol" />
+    <meta name="twitter:description" content="A simple token system for Bitcoin Cash" />
+    <meta name="twitter:image" content="https://simpleledger.cash/images/SLP-logo-stroke-200.png" />
+    <meta property="og:url" content="https://simpleledger.cash" />
+    <meta property="og:type"   content="website" /> 
+    <meta property="og:title" content="Simple Ledger Protocol" />
+    <meta property="og:description" content="A simple token system for Bitcoin Cash" />
+    <meta property="og:image" content="https://simpleledger.cash/images/SLP-logo-stroke-200.png" />
+    
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
@@ -87,10 +100,10 @@
 
             <div class="row home-content__main">
 
-                <h3>Simple Ledger Protocol (SLP)</h3>
+                <h1 style="text-align: left;">Simple Ledger Protocol (SLP)</h1>
 
-                <h1>A simple token system<br />
-                for Bitcoin Cash</h1>
+                <h2 class="display-3 display-3--light" style="text-align: left;">A simple token system<br />
+                for Bitcoin Cash</h2>
 
             </div>
 
@@ -105,14 +118,14 @@
         </div> <!-- end home-content -->
         
         <ul class="home-social">
-            <li>
+            <!-- <li>
                 <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li> -->
+            <li>
+                <a href="https://twitter.com/SimpleLedger"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-telegram" aria-hidden="true"></i><span>Telegram</span></a>
+                <a href="https://t.me/joinchat/IiRCvRA3Edyh9IJBANH7Rw"><i class="fa fa-telegram" aria-hidden="true"></i><span>Telegram</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -124,15 +137,15 @@
     ================================================== -->
     <section id='about' class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header has-bottom-sep" data-aos="fade-up" data-aos-anchor=".home-content__main">
             <div class="col-full">
                 <h1 class="display-1 display-1--light">What is SLP?</h1>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row about-desc" data-aos="fade-up">
+        <div class="row about-desc" data-aos="fade-up" data-aos="fade-up" data-aos-anchor=".home-content__main">
             <div class="col-full">
-                <p>SLP is an emerging standard protocol for issuing tokens on the Bitcoin Cash blockchain.  Anyone can issue their own token or coin within seconds. And with SLP, you can spend or trade tokens peer to peer, just like Bitcoin Cash itself.</p>
+                <p>SLP is an emerging standard protocol for issuing secure tokens on the Bitcoin Cash blockchain.  Anyone can issue their own token or coin within seconds. And with SLP, you can spend or trade tokens peer to peer, just like Bitcoin Cash itself.</p>
             </div>
         </div> <!-- end about-desc -->
 
@@ -145,16 +158,16 @@
     ================================================== -->
     <section id='benefits' class="s-services">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header has-bottom-sep">
             <div class="col-full">
-                <h3 class="subhead">Benefits</h3>
+                <h3 class="subhead" style="font-size: 3.0rem;">Benefits</h3>
                 <h1 class="display-2">SLP has everything you need to easily issue, spend or trade your own token.</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                     <i class="icon-wallet"></i>
                 </div>
@@ -165,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                     <i class="icon-link"></i>
                 </div>
@@ -176,7 +189,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                     <i class="icon-education"></i>
                 </div>  
@@ -187,29 +200,29 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                     <i class="icon-thumbs-up"></i>
                 </div>
                 <div class="service-text">
                     <h3 class="h2">Robust</h3>
-                    <p>A limited set of consensus rules makes the system reliable.
+                    <p>A limited set of consensus rules makes the system reliable. A unique address format helps prevent loss of tokens.
                     </p>
                 </div>
             </div>
     
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                 	<i class="icon-no"></i>
 </div>
                 <div class="service-text">
-                    <h3 class="h2">No Middleman</h3>
+                    <h3 class="h2">No Native Token</h3>
                     <p>Some token protocols have their own coin which you must first acquire in order to use other tokens. SLP runs directly on top of BCH.
                     </p>
                 </div>
             </div>
             
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                		<i class="fa fa-file-code-o"></i>
                 </div>
@@ -220,7 +233,7 @@
                 </div>
             </div>
             
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                 	<i class="icon-expand"></i>
                 </div>
@@ -231,7 +244,7 @@
                 </div>
             </div>
             
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                 	<i class="icon-share"></i>
                 </div>
@@ -242,13 +255,24 @@
                 </div>
             </div>
             
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                 	<i class="icon-plus"></i>
                 </div>
                 <div class="service-text">
                     <h3 class="h2">Extensible</h3>
                     <p>The protocol can be extended to support different types of tokens including those with issuer controlled whitelists for regulated securities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                	<i class="icon-bank-note"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Free & Open Source</h3>
+                    <p>The protocol and Electron Cash implementation of SLP are both free and open source. 
                     </p>
                 </div>
             </div>
@@ -264,78 +288,83 @@
 
         <div class="intro-wrap">
                 
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="row section-header has-bottom-sep light-sep">
                 <div class="col-full">
-                    <h3 class="subhead">FAQ's</h3>
-                    <h1 class="display-2 display-2--light">You have questions? We have answers.</h1>
+                    <h3 class="subhead" style="font-size: 3.0rem;">FAQ's</h3>
+                    <h1 class="display-2 display-2--light">You have questions? <br />We have answers.</h1>
                 </div>
             </div> <!-- end section-header -->
 
         </div> <!-- end intro-wrap -->
 
-        <div class="row section-header">
+        <div class="row section-header" id="faq">
             <div class="col-full">
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>What makes SLP special among the many emerging token protocols?</h2>
                 <p>We became motivated to create SLP because we believed most previous token proposals were overcomplicated. We wanted something simple and easy to use. We also understand the importance of developing a rich ecosystem with a critical mass of users and are committed to creating it.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>Is SLP like Ethereum’s ERC-20, but for BCH?</h2>
-                <p>In many ways, yes. Anyone can issue, or “mint” a new token type. Tokens be traded, spent, or given to someone else. They operate in a distributed manner like most cryptocurrencies. Unlike ERC-20 however, SLP tokens do not support smart contracts, at least directly. But they could be used with Bitcoin script in novel ways.</p>
+                <p>In many ways, yes. Anyone can issue, or “mint” a new token type. Tokens can be traded, spent, or given to someone else. They operate in a distributed manner like most cryptocurrencies. Custom token behavior can be added using bitcoin Script programming language in novel ways.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>In a nutshell, how does SLP work technically?</h2>
-                <p>On a technical level, you can think of SLP as a ‘transaction within a transaction’. SLP transactions live within a special output known as OP_RETURN, which is a part of a standard Bitcoin Cash transaction. If Alice wants to send Bob some tokens, she sends a minimal (dust) amount of BCH, and the transaction also contains the data to transfer the tokens. You may be interested in reading the protocol specification, which is comprehendable to the average Bitcoin-minded reader.</p>
+                <p>You can think of SLP as a ‘transaction within a transaction’. SLP transactions live within a special output known as OP_RETURN, which is a part of a standard Bitcoin Cash transaction. If Alice wants to send Bob some tokens, she sends a minimal (dust) amount of BCH, and the transaction also contains the data to transfer the tokens. You may be interested in reading the protocol specification, which is comprehendable to the average Bitcoin-minded reader.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>How can I start using SLP today?</h2>
                 <p>Download the Electron Cash SLP wallet. You can ask your friends to send you some tokens, or mint your own.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
-				<h2>Are there any block explorers for SLP tokens?</h2>
-                <p>Not yet, but we are building!</p>
-            </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>Can anyone create their own token?</h2>
-                <p>Yes.</p>
+                <p>Yes.  But we recommend consulting a legal professional before attempting crowdsales or similar activities.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>Why should I choose SLP for my project?</h2>
                 <p>You should carefully review all of the available protocols on Bitcoin Cash for tokens. Some may be more suited to your purpose than others. We have listed many of the benefits of SLP above.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>What are the issuance options for token creators?</h2>
                 <p>Token creators can generate a token with a 1-time issuance, thus guaranteeing a fixed supply, or alternatively, a token that has multiple issuance rounds. These rounds can continue indefinitely until the issuer decides to switch it off permanently, marking the end-of-minting capabilities for that token.</p>
-
-<p>In addition, the issuer can declare a total authorized amount in the genesis mint, which cannot be exceeded even if there are multiple issuance rounds.</p>
+                <p>Token issuance authority can also be delegated to someone else after the token has already been created.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>How do token names and hash IDs work?</h2>
                 <p>The initial genesis minting of a token is also a Bitcoin Cash transaction. The BCH transaction Id is then one and the same with the hash Id of the token.</p>
-
-<p>Token issuers can also specify a name for their token within the data. However, there are no reserved names. Names can be duplicated, sometimes maliciously. (This is also true of ERC-20). Therefore, users should always check the hash Id against a trusted source.</p>
+                <p>Token issuers can also specify a name for their token within the data. However, there are no reserved names. Names can be duplicated, sometimes maliciously. (This is also true of ERC-20). Therefore, users should always check the hash Id against a trusted source.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>How does SLP handle decimal precision?</h2>
-                <p>The Bitcoin protocol deals directly with smallest granular units is called a satoshi, but amounts in wallets are often expressed in decimal format (i.e. 3.0723432 BCH) A similar system is used in SLP; the protocol itself deals with integer units, but some tokens are better displayed with decimals. The genesis mint of a transaction can set a decimal preference if desired</p>
+                <p>The Bitcoin protocol deals directly with smallest granular units, which are called satoshis, but amounts in wallets are often expressed in decimal format (i.e. 3.0723432 BCH). A similar system is used in SLP; the protocol itself deals with integer units, but some tokens are better displayed with decimals. The genesis mint of a transaction can set a decimal preference if desired.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
+				<h2>How can I avoid accidentally losing or burning tokens?</h2>
+                <p>The most important thing you need to know is that you should not use a non-SLP wallet on a wallet file that has tokens on it. If you do this, the non-SLP wallet may end up spending the coin (the UTXO) that contains the tokens.</p>
+                <p>For example, once you have tokens on a wallet file, only open that file with the Electron Cash SLP wallet, not the normal Electron Cash wallet. This applies not just to wallet files per se, but also wallets that you restore from seed, as they will contain a particular set of addresses and coins.</p>
+            </div>
+
+            <div class="row has-bottom-sep">
+				<h2>Does SLP have its own address format?</h2>
+                <p>Yes. "SLP Addr" is a new encoding for addresses, similar to CashAddr.  Theoretically, tokens could be sent and received from any address format, but we strongly encourage wallet implementations to use SLP Addr format.  This helps prevent user mistakes when transacting in either Bitcoin Cash or tokens.</p>
+            </div>
+
+            <div class="row has-bottom-sep">
 				<h2>Is SLP robust and well-tested?</h2>
-                <p>The SLP protocol is designed to be as simple, which makes it robust. But it is not well tested yet as we have just recently released the first beta version wallet. Accordingly, you should assume there could be bugs and do not use SLP for a serious project until at least several weeks of testing have occurred without incident.</p>
+                <p>The SLP protocol is designed to be simple, which makes it robust. We have written over 100 unit tests for the Electron Cash wallet which passed successfully.  Still, the project is new and there could be bugs discovered later.  You should not use SLP for a serious project until at least several weeks of real world testing have occurred without incident.</p>
             </div>
             
-            <div class="row has-bottom-sep" data-aos="fade-up">
+            <div class="row has-bottom-sep">
 				<h2>What are the risks of using SLP?</h2>
                 <p>SLP is a new protocol and there could be bugs discovered at any point. It is also possible to lose tokens if used improperly or if there are bugs in a wallet implementation.</p>
             </div>
@@ -352,32 +381,39 @@
     <section id="get-involved" class="s-contact">
 
         <div class="overlay"></div>
-        <div class="contact__line"></div>
+        <!-- <div class="contact__line"></div> -->
 
-        <div class="row section-header" data-aos="fade-up">
+        <div class="row section-header">
             <div class="col-full">
                 <h3 class="subhead">Learn more &amp; get involved</h3>
-                <h1 class="display-2 display-2--light">Information, resources, and support for SLP.</h1>
+                <h1 class="display-2 display-2--light">Information, resources, <br />and support for SLP.</h1>
             </div>
         </div>
 
-        <div class="row contact-content" data-aos="fade-up">
+        <div class="row contact-content">
         
-            <div class="col-four">
+            <div class="col-six">
             	<div class="service-icon-center "><i class="icon-wallet"></i></div>
                 <h2 class="display-3 display-3--light">Electron Cash</h2>
-                <p class="align-center">Download the Electron Cash wallet for SLP from Github.</p>
-                <a class="btn btn--stroke full-width" href="https://github.com/simpleledger/electrum">Download</a>
+                <p class="align-center">Download the beta Electron Cash wallet built for SLP.</p>
+                <a class="btn btn--stroke full-width" href="https://electroncash.org/index.html#slp">Download</a>
+            </div>
+
+            <div class="col-six">
+            	<div class="service-icon-center "><i class="icon-search"></i></div>
+                <h2 class="display-3 display-3--light">SLP Explorer</h2>
+                <p class="align-center">Explorer all SLP token transactions with Tokengraph.</p>
+                <a class="btn btn--stroke full-width" href="https://tokengraph.network">Explore</a>
             </div>
             
-            <div class="col-four">
+            <div class="col-six">
             	<div class="service-icon-center service-icon"><i class="icon-file"></i></div>
                 <h2 class="display-3 display-3--light">Protocol Spec</h2>
-                <p class="align-center">Read the full Simple Ledger Protocol (SLP) specifications on Github.</p>
-                <a class="btn btn--stroke full-width" href="https://github.com/simpleledger/protocol-spec/blob/master/Token_Type_1.md">Read</a>
+                <p class="align-center">Read the SLP specification on Github.</p>
+                <a class="btn btn--stroke full-width" href="https://github.com/simpleledger/slp-specification/blob/master/slp-token-type-1.md">Read</a>
             </div>
             
-            <div class="col-four">
+            <div class="col-six">
             	<div class="service-icon-center service-icon"><i class="fa fa-telegram"></i></div>
                 <h2 class="display-3 display-3--light">Support</h2>
                 <p class="align-center">Follow our discussion forum on Telegram.</p>
@@ -403,14 +439,14 @@
                 <p>A simple token system for Bitcoin Cash.</p>
                 
                 <ul class="contact-social">
-                    <li>
+                    <!-- <li>
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li> -->
+                    <li>
+                        <a href="https://twitter.com/SimpleLedger"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                        <a href="https://t.me/joinchat/IiRCvRA3Edyh9IJBANH7Rw"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                     </li>
                 </ul> <!-- end contact-social -->
 
@@ -418,7 +454,7 @@
 
             <div class="col-six tab-full right footer-subscribe">
 
-                <h4>Get Notified</h4>
+                <!-- <h4>Get Notified</h4>
                 <p>Sign up to be notified about new developments with Simple Ledger Protocol (SLP).</p>
 
                 <div class="subscribe-form">
@@ -427,7 +463,7 @@
                         <input type="submit" name="subscribe" value="Sign Up">
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
-                </div>
+                </div> -->
 
             </div>
 
